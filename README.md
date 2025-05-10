@@ -1,4 +1,4 @@
-# URL Shortener
+# URL Shortner
 
 A lightweight Node.js application that allows users to shorten long URLs into concise, shareable links. This project is ideal for developers interested in understanding the fundamentals of URL shortening services.
 
@@ -40,7 +40,7 @@ A lightweight Node.js application that allows users to shorten long URLs into co
 3. **Start the application**:
 
    ```bash
-   node app.js
+   npm start
    ```
 
    The server will start on `http://localhost:3000`.
@@ -80,16 +80,6 @@ MONGO_URI=mongodb://localhost:27017/urlShortener
 BASE_URL=http://localhost
 PORT=3000
 HASH_LENGTH=6
-```
-
-You can adjust the values as needed for your setup.
-
-Create a `.env` file in the root directory and define the following variables:
-
-```
-PORT=3000
-DB_PATH=./data/db.json
-BASE_URL=http://localhost:3000
 ```
 
 You can adjust the values as needed for your setup.
